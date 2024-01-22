@@ -5,7 +5,7 @@
   <title>Grades</title>
 </head>
 <body>
-<table border="1px">
+<table>
   <tbody>
   <tr>
     <td style="vertical-align: top">
@@ -44,22 +44,24 @@
       </ul>
     </td>
     <td style="vertical-align: top">
-      <select>
-        <option>Gradebook</option>
-      </select>
-      <button>Import</button>
-      <select>
-        <option>Export</option>
-      </select>
-      <button>Configure</button>
-      <h2>Student Names</h2>
-      <input type="text" placeholder="Search Students"/>
-      <h2>Assignment Names</h2>
-      <input type="text" placeholder="Search Assignments"/>
+      <form>
+        <select>
+          <option>Gradebook</option>
+        </select>
+        <button>Import</button>
+        <select>
+          <option>Export</option>
+        </select>
+        <button>Configure</button>
+        <h2>Student Names</h2>
+        <input type="text" placeholder="Search Students"/>
+        <h2>Assignment Names</h2>
+        <input type="text" placeholder="Search Assignments"/>
+        <br><br>
+        <button>Apply Filters</button>
+      </form>
       <br><br>
-      <button>Apply Filters</button>
-      <br><br>
-      <table>
+      <table border="1px">
         <thead>
         <tr>
           <th>Student Name</th>
