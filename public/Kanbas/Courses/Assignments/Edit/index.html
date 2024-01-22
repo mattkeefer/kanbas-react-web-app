@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Edit Assignment</title>
+</head>
+<body>
+<form>
+  <select>
+    <option>SpeedGrader</option>
+  </select>
+  <hr>
+  <h2>Assignment Name</h2>
+  <input type="text" value="Assignment Name"/>
+  <br><br>
+  <textarea>This is the assignment description.</textarea>
+  <br><br>
+  <label for="points">Points</label>
+  <br>
+  <input type="number" id="points" value="100"/>
+
+  <br><br>
+  <label for="group">Assignment Group</label>
+  <br>
+  <select id="group">
+    <option>ASSIGNMENTS</option>
+  </select>
+
+  <br><br>
+  <label for="displayGrade">Display Grade as</label>
+  <br>
+  <select id="displayGrade">
+    <option>Percentage</option>
+  </select>
+
+  <br><br>
+  <label for="submissionType">Submission Type</label>
+  <br>
+  <select id="submissionType">
+    <option>Online</option>
+  </select>
+
+  <br><br>
+  <p>Online Entry Options</p>
+  <input type="checkbox" id="textEntry"/>
+  <label for="textEntry">Text Entry</label>
+  <br>
+  <input type="checkbox" id="websiteUrl"/>
+  <label for="websiteUrl">Website Url</label>
+  <br>
+  <input type="checkbox" id="mediaRecordings"/>
+  <label for="mediaRecordings">Media Recordings</label>
+  <br>
+  <input type="checkbox" id="studentAnnotation"/>
+  <label for="studentAnnotation">Student Annotation</label>
+  <br>
+  <input type="checkbox" id="fileUploads"/>
+  <label for="fileUploads">File Uploads</label>
+  <br>
+
+  <p>Assign</p>
+
+  <label for="assignTo">Assign to</label>
+  <br>
+  <input type="text" id="assignTo" value="Everyone"/>
+
+  <br><br>
+  <label for="dueDate">Due</label>
+  <br>
+  <input type="date" id="dueDate" value="2021-01-01"/>
+
+  <br><br>
+  <label for="availableDate">Available from</label>
+  <br>
+  <input type="date" id="availableDate" value="2021-01-01"/>
+
+  <br><br>
+  <label for="untilDate">Until</label>
+  <br>
+  <input type="date" id="untilDate" value="2021-01-01"/>
+
+  <br><br>
+  <a href="/Kanbas/Courses/Assignments/screen.html"><button type="button">Cancel</button></a>
+  <a href="/Kanbas/Courses/Assignments/screen.html"><button type="button">Save</button></a>
+</form>
+</body>
+</html>
