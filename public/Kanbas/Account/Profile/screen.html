@@ -3,59 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <title>Profile</title>
+  <link href="/libs/bootstrap/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/Kanbas/styles.css" />
+  <link rel="stylesheet" href="/Kanbas/Navigation/index.css" />
+  <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css" />
 </head>
 <body>
-<table>
-  <tbody>
-  <tr>
-    <td valign="top">
-      <ul>
-        <li><a href="/Kanbas/Account/Profile/screen.html">Account</a></li>
-        <li><a href="/Kanbas/Dashboard/screen.html">Dashboard</a></li>
-        <li><a href="/Kanbas/Courses/Home/screen.html">Courses</a></li>
-        <li><a href="/Kanbas/Calendar/screen.html">Calendar</a></li>
-        <li><a href="/Kanbas/Inbox/screen.html">Inbox</a></li>
-        <li><a href="/Kanbas/History/screen.html">History</a></li>
-        <li><a href="/Kanbas/Studio/screen.html">Studio</a></li>
-        <li><a href="/Kanbas/Commons/screen.html">Commons</a></li>
-        <li><a href="/Kanbas/Help/screen.html">Help</a></li>
-      </ul>
-    </td>
-    <td valign="top">
-      <ul>
-        <li><a href="#">Notifications</a></li>
-        <li><a href="/Kanbas/Account/Profile/screen.html">Profile</a></li>
-        <li><a href="#">Files</a></li>
-        <li><a href="#">Settings</a></li>
-        <li><a href="#">ePortfolios</a></li>
-        <li><a href="#">Shared Content</a></li>
-        <li><a href="#">The Hub</a></li>
-        <li><a href="#">Qwickly Course Tools</a></li>
-        <li><a href="#">Global Announcements</a></li>
-      </ul>
-    </td>
-    <td valign="top">
-      <p>Matt Keefer's Profile</p>
-      <hr>
-      <table width="100%">
-        <tr>
-          <td>
-            <h2>Matt Keefer</h2>
-          </td>
-          <td>
-            <a href="/Kanbas/Account/Profile/Edit/screen.html"><button>Edit Profile</button></a>
-          </td>
-        </tr>
-      </table>
-      <h3>Contact</h3>
-      <p>No registered services, you can add some on the <a href="#">settings</a> page.</p>
-      <h3>Biography</h3>
-      <p>Student, Computer Science major, Mathematics minor, Incoming Software Engineer I at Wayfair.</p>
-      <h3>Links</h3>
-      <p><a href="https://www.youtube.com/">YouTube</a></p>
-    </td>
-  </tr>
-  </tbody>
-</table>
+<div class="d-flex">
+  <div class="bg-black">
+    <ul class="wd-kanbas-navigation">
+      <li><a href="https://www.northeastern.edu/">
+        <img src="/images/northeastern.png" />
+      </a></li>
+      <li class="wd-active wd-accent">
+        <a href="/Kanbas/Account/Profile/screen.html">
+          <i class="fa fa-user-circle-o"></i><br/>Account</a>
+      </li>
+      <li>
+        <a href="/Kanbas/Dashboard/screen.html">
+          <i class="fa fa-tachometer"></i><br/>Dashboard</a>
+      </li>
+      <li>
+        <a href="/Kanbas/Courses/Home/screen.html">
+          <i class="fa fa-book"></i><br/>Courses</a>
+      </li>
+      <li><a href="#"><i class="fa fa-calendar"></i><br/>Calendar</a></li>
+      <li><a href="#"><i class="fa fa-inbox"></i><br/>Inbox</a></li>
+      <li><a href="#"><i class="fa fa-clock-o"></i><br/>History</a></li>
+      <li><a href="#"><i class="fa fa-film"></i><br/>Studio</a></li>
+      <li><a href="#"><i class="fa fa-codiepie"></i><br/>Commons</a></li>
+      <li><a href="#"><i class="fa fa-question-circle-o"></i><br/>Help</a></li>
+    </ul>
+  </div>
+  <div>
+    <ul>
+      <li><a href="#">Notifications</a></li>
+      <li><a href="/Kanbas/Account/Profile/screen.html">Profile</a></li>
+      <li><a href="#">Files</a></li>
+      <li><a href="#">Settings</a></li>
+      <li><a href="#">ePortfolios</a></li>
+      <li><a href="#">Shared Content</a></li>
+      <li><a href="#">The Hub</a></li>
+      <li><a href="#">Qwickly Course Tools</a></li>
+      <li><a href="#">Global Announcements</a></li>
+    </ul>
+  </div>
+  <div>
+    <p>Matt Keefer's Profile</p>
+    <hr>
+    <table width="100%">
+      <tr>
+        <td>
+          <h2>Matt Keefer</h2>
+        </td>
+        <td>
+          <a href="/Kanbas/Account/Profile/Edit/screen.html"><button>Edit Profile</button></a>
+        </td>
+      </tr>
+    </table>
+    <h3>Contact</h3>
+    <p>No registered services, you can add some on the <a href="#">settings</a> page.</p>
+    <h3>Biography</h3>
+    <p>Student, Computer Science major, Mathematics minor, Incoming Software Engineer I at Wayfair.</p>
+    <h3>Links</h3>
+    <p><a href="https://www.youtube.com/">YouTube</a></p>
+  </div>
+</div>
 </body>
 </html>
