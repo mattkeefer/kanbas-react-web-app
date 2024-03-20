@@ -6,7 +6,7 @@ import {
   FaBook,
   FaRegCalendarAlt,
   FaInbox,
-  FaRegClock, FaFilm, FaCodiepie, FaRegQuestionCircle
+  FaRegClock, FaFilm, FaCodiepie
 } from "react-icons/fa";
 
 function KanbasNavigation() {
